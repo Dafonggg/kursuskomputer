@@ -32,6 +32,11 @@
 		}
 	})
 
+	// Helper function for matchesSelector
+	function matchesSelector(element, selector) {
+		return element.matches ? element.matches(selector) : element.msMatchesSelector(selector);
+	}
+
 	const elem = document.querySelector('.event_box');
 	const filtersElem = document.querySelector('.event_filter');
 	if (elem) {

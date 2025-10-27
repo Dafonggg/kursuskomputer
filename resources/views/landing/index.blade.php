@@ -1,87 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <title>KURSUS RYAN KOMPUTER</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{{ url('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="{{ asset('css/templatemo-scholar.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/owl.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-
-<!--
-
-TemplateMo 586 Scholar
-
-https://templatemo.com/tm-586-scholar
-
--->
-  </head>
-
-<body>
-
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="{{ url('/') }}" class="logo">
-                        <h1>Kursus R Komputer</h1>
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Serach Start ***** -->
-                    <div class="search-input">
-                      <form id="search" action="#">
-                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
-                        <i class="fa fa-search"></i>
-                      </form>
-                    </div>
-                    <!-- ***** Serach Start ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="#services">Services</a></li>
-                      <li class="scroll-to-section"><a href="#courses">Courses</a></li>
-                      <li class="scroll-to-section"><a href="#team">Team</a></li>
-                      <li class="scroll-to-section"><a href="#events">Events</a></li>
-                      <li class="scroll-to-section"><a href="#contact">Register Now!</a></li>
-                  </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
+@include('layouts.header')
 
   <div class="main-banner" id="top">
     <div class="container">
@@ -148,8 +65,9 @@ https://templatemo.com/tm-586-scholar
               <img src="{{ asset('images/service-01.png') }}" alt="online degrees">
             </div>
             <div class="main-content">
-              <h4>Online Degrees</h4>
-              <p>Whenever you need free templates in HTML CSS, you just remember TemplateMo website.</p>
+              <h4>Microsoft Office</h4>
+              <p>Tingkatkan keterampilan Anda dalam menggunakan Microsoft Word, Excel, dan PowerPoint.
+              Pelajari cara mengelola data, membuat laporan profesional, dan presentasi menarik dengan mudah.</p>
               <div class="main-button">
                 <a href="#">Read More</a>
               </div>
@@ -162,8 +80,9 @@ https://templatemo.com/tm-586-scholar
               <img src="{{ asset('images/service-02.png') }}" alt="short courses">
             </div>
             <div class="main-content">
-              <h4>Short Courses</h4>
-              <p>You can browse free templates based on different tags such as digital marketing, etc.</p>
+              <h4>Adobe Photoshop</h4>
+              <p>Kuasai teknik dasar hingga lanjutan dalam pengeditan foto dan desain grafis menggunakan Adobe Photoshop.
+              Ciptakan karya visual yang menarik dan profesional untuk kebutuhan pribadi maupun bisnis.</p>
               <div class="main-button">
                 <a href="#">Read More</a>
               </div>
@@ -176,8 +95,9 @@ https://templatemo.com/tm-586-scholar
               <img src="{{ asset('images/service-03.png') }}" alt="web experts">
             </div>
             <div class="main-content">
-              <h4>Web Experts</h4>
-              <p>You can start learning HTML CSS by modifying free templates from our website too.</p>
+              <h4>CorelDraw</h4>
+              <p>YPelajari desain vektor dan pembuatan logo menggunakan CorelDRAW.
+              Kursus ini membantu Anda memahami cara membuat desain kreatif dengan efisien dan presisi tinggi.</p>
               <div class="main-button">
                 <a href="#">Read More</a>
               </div>
@@ -196,48 +116,48 @@ https://templatemo.com/tm-586-scholar
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Where shall we begin?
+                Dari mana kita mulai belajar?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                Kami akan mulai dari pengenalan dasar komputer, lalu lanjut ke materi kursus pilihan kamu — Word, Excel, Photoshop, atau CorelDRAW.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  How do we work together?
+                Bagaimana cara belajar di Kursus Ryan Komputer?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                Belajar bisa secara online melalui video tutorial praktis, atau offline dengan modul pembelajaran yang bisa kamu pelajari di tempat.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Why SCHOLAR is the best?
+                Kenapa Kursus Ryan Komputer yang terbaik?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  There are more than one hundred responsive HTML templates to choose from <strong>Template</strong>Mo website. You can browse by different tags or categories.
+                Karena kami fokus pada praktik langsung dan pembelajaran yang mudah dipahami. Setelah selesai, kamu siap kerja atau buka jasa desain dan administrasi sendiri
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Do we get the best support?
+                Apakah ada dukungan setelah kursus selesai?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  You can also search on Google with specific keywords such as <code>templatemo business templates, templatemo gallery templates, admin dashboard templatemo, 3-column templatemo, etc.</code>
+                Tentu! Peserta tetap bisa mengakses video tutorial dan modul kapan saja, serta mendapatkan sertifikat resmi sebagai bukti kelulusan.
                 </div>
               </div>
             </div>
@@ -245,11 +165,13 @@ https://templatemo.com/tm-586-scholar
         </div>
         <div class="col-lg-5 align-self-center">
           <div class="section-heading">
-            <h6>About Us</h6>
-            <h2>What make us the best academy online?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravid risus commodo.</p>
+            <h6>Tentang Kami</h6>
+            <h2>Apa yang menjadikan kami Kursus Ryan Komputer terbaik?</h2>
+            <p>Kursus Ryan Komputer siap bantu kamu kuasai Word, Excel, Photoshop, dan CorelDRAW dengan cara yang mudah dan fleksibel.
+              Belajar bisa online lewat video tutorial atau offline dengan modul lengkap.
+              Setelah selesai, kamu akan mendapat sertifikat resmi sebagai bukti keahlianmu.</p>
             <div class="main-button">
-              <a href="#">Discover More</a>
+              <a href="#">Pelajari Lebih Lanjut</a>
             </div>
           </div>
         </div>
@@ -262,43 +184,49 @@ https://templatemo.com/tm-586-scholar
       <div class="row">
         <div class="col-lg-12 text-center">
           <div class="section-heading">
-            <h6>Latest Courses</h6>
-            <h2>Latest Courses</h2>
+            <h6>DAFTAR KURSUS</h6>
+            <h2>DAFTAR KURSUS</h2>
           </div>
         </div>
       </div>
       <ul class="event_filter">
         <li>
-          <a class="is_active" href="#!" data-filter="*">Show All</a>
+          <a class="is_active" href="#!" data-filter="*">SEMUA</a>
         </li>
         <li>
-          <a href="#!" data-filter=".design">Webdesign</a>
+          <a href="#!" data-filter=".word">Word</a>
         </li>
         <li>
-          <a href="#!" data-filter=".development">Development</a>
+          <a href="#!" data-filter=".excel">Excel</a>
         </li>
         <li>
-          <a href="#!" data-filter=".wordpress">Wordpress</a>
+          <a href="#!" data-filter=".photoshop">Photoshop</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".coreldraw">CorelDraw</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".paket">PaketMicrosoftOffice</a>
         </li>
       </ul>
       <div class="row event_box">
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 paket">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="{{ asset('images/office.png') }}" alt=""></a>
-              <span class="category">Office</span>
-              <span class="price"><h6><em>$</em>160</h6></span>
+              <a href="#"><img src="{{ asset('images/msp1.png') }}" alt=""></a>
+              <span class="category">Microsoft Office</span>
+              <span class="price"><h6><em>$</em>500</h6></span>
             </div>
             <div class="down-content">
               <span class="author">Adrian Tung</span>
-              <h4>Learn Office</h4>
+              <h4>Office 365</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 word">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="{{ asset('images/word.png') }}" alt=""></a>
+              <a href="#"><img src="{{ asset('images/wordp2.png') }}" alt=""></a>
               <span class="category">Word</span>
               <span class="price"><h6><em>$</em>340</h6></span>
             </div>
@@ -308,49 +236,49 @@ https://templatemo.com/tm-586-scholar
             </div>
           </div>
         </div>
-        <<div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 excel">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="{{ asset('images/word.png') }}" alt=""></a>
-              <span class="category">Word</span>
+              <a href="#"><img src="{{ asset('images/excelp.png') }}" alt=""></a>
+              <span class="category">Excel</span>
               <span class="price"><h6><em>$</em>340</h6></span>
             </div>
             <div class="down-content">
               <span class="author">Adrian Tung</span>
-              <h4>Learn Word</h4>
+              <h4>Learn Excel</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 photoshop">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="{{ asset('images/word.png') }}" alt=""></a>
-              <span class="category">Word</span>
+              <a href="#"><img src="{{ asset('images/psp.png') }}" alt=""></a>
+              <span class="category">Photoshop</span>
               <span class="price"><h6><em>$</em>340</h6></span>
             </div>
             <div class="down-content">
               <span class="author">Adrian Tung</span>
-              <h4>Learn Word</h4>
+              <h4>Learn Photoshop</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 coreldraw">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="{{ asset('images/word.png') }}" alt=""></a>
-              <span class="category">Word</span>
+              <a href="#"><img src="{{ asset('images/coreldrawp.png') }}" alt=""></a>
+              <span class="category">Corel Draw</span>
               <span class="price"><h6><em>$</em>340</h6></span>
             </div>
             <div class="down-content">
               <span class="author">Adrian Tung</span>
-              <h4>Learn Word</h4>
+              <h4>Learn CorelDraw</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 word">
           <div class="events_item">
             <div class="thumb">
-              <a href="#"><img src="{{ asset('images/word.png') }}" alt=""></a>
+              <a href="#"><img src="{{ asset('images/wordp2.png') }}" alt=""></a>
               <span class="category">Word</span>
               <span class="price"><h6><em>$</em>340</h6></span>
             </div>
@@ -663,22 +591,4 @@ https://templatemo.com/tm-586-scholar
     </div>
   </div>
 
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <p>Copyright © 2036 Scholar Organization. All rights reserved. &nbsp;&nbsp;&nbsp; Design: <a href="https://templatemo.com" rel="nofollow" target="_blank">TemplateMo</a></p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-  <script src="{{ url('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
-  <script src="{{ asset('js/isotope.min.js') }}"></script>
-  <script src="{{ asset('js/owl-carousel.js') }}"></script>
-  <script src="{{ asset('js/counter.js') }}"></script>
-  <script src="{{ asset('js/custom.js') }}"></script>
-
-  </body>
-</html>
+@include('layouts.footer')

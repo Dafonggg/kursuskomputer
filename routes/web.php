@@ -19,3 +19,18 @@ Route::get('/', function () {
 Route::get('/homepage', function () {
     return view('homepage');
 });
+
+// Authentication routes
+Route::get('/login', function () {
+    return view('auth.login');
+})->name('login');
+
+Route::post('/login', function () {
+    // Add your login logic here
+    // This is a placeholder - implement actual authentication logic
+    return redirect('/');
+})->name('login.post');
+
+Route::get('/register', function () {
+    return view('auth.register');
+})->name('register');
