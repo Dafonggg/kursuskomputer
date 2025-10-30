@@ -434,114 +434,157 @@
     </div>
   </div>
 
-  <div class="section events" id="events">
+  <section class="katalog-aksesoris" id="katalog-aksesoris" >
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <div class="section-heading">
-            <h6>Schedule</h6>
-            <h2>Upcoming Events</h2>
+            <h6>Katalog Aksesoris</h6>
+            <h2>Katalog Aksesoris</h2>
           </div>
         </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="{{ asset('images/event-01.jpg') }}" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Web Design</span>
-                    <h4>UI Best Practices</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>16 Feb 2036</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>22 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$120</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-              </div>
+      </div>
+      <ul class="event_filter">
+        <li>
+          <a class="is_active" href="#!" data-filter="*">SEMUA</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".mouse">Mouse</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".keyboard">Keyboard</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".headset">Headset</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".mousepad">Mouse Pad</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".webcam">Webcam</a>
+        </li>
+      </ul>
+      <div class="row event_box">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 mouse">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="{{ asset('images/contoh.jpg') }}" alt=""></a>
+              <span class="category">Mouse</span>
+              <span class="price" style="font-size: 12px;">Tersedia</span>
+            </div>
+            <div class="down-content">
+              <span class="author">Logitech</span>
+              <h4>Mouse Wireless</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="{{ asset('images/event-02.jpg') }}" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Front End</span>
-                    <h4>New Design Trend</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>24 Feb 2036</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>30 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$320</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-              </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 keyboard">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="{{ asset('images/contoh.jpg') }}" alt=""></a>
+              <span class="category">Keyboard</span>
+              <span class="price" style="font-size: 12px;">Tersedia</span>
+            </div>
+            <div class="down-content">
+              <span class="author">Razer</span>
+              <h4>Keyboard Mechanical</h4>
             </div>
           </div>
         </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="{{ asset('images/event-03.jpg') }}" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Full Stack</span>
-                    <h4>Web Programming</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>12 Mar 2036</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>48 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$440</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-              </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 headset">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="{{ asset('images/contoh.jpg') }}" alt=""></a>
+              <span class="category">Headset</span>
+              <span class="price" style="font-size: 12px;">Habis</span>
+            </div>
+            <div class="down-content">
+              <span class="author">HyperX</span>
+              <h4>Headset Gaming</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 mousepad">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="{{ asset('images/contoh.jpg') }}" alt=""></a>
+              <span class="category">Mouse Pad</span>
+              <span class="price" style="font-size: 12px;">Tersedia</span>
+            </div>
+            <div class="down-content">
+              <span class="author">SteelSeries</span>
+              <h4>Mouse Pad Gaming</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 webcam">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="{{ asset('images/contoh.jpg') }}" alt=""></a>
+              <span class="category">Webcam</span>
+              <span class="price" style="font-size: 12px;">Tersedia</span>
+            </div>
+            <div class="down-content">
+              <span class="author">Logitech</span>
+              <h4>Webcam HD</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 mouse">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="{{ asset('images/contoh.jpg') }}" alt=""></a>
+              <span class="category">Mouse</span>
+              <span class="price" style="font-size: 12px;">Habis</span>
+            </div>
+            <div class="down-content">
+              <span class="author">Razer</span>
+              <h4>Mouse Gaming</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 keyboard">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="{{ asset('images/contoh.jpg') }}" alt=""></a>
+              <span class="category">Keyboard</span>
+              <span class="price" style="font-size: 12px;">Tersedia</span>
+            </div>
+            <div class="down-content">
+              <span class="author">Corsair</span>
+              <h4>Keyboard RGB</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 headset">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="{{ asset('images/contoh.jpg') }}" alt=""></a>
+              <span class="category">Headset</span>
+              <span class="price" style="font-size: 12px;">Tersedia</span>
+            </div>
+            <div class="down-content">
+              <span class="author">SteelSeries</span>
+              <h4>Headset Wireless</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 webcam">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="{{ asset('images/contoh.jpg') }}" alt=""></a>
+              <span class="category">Webcam</span>
+              <span class="price" style="font-size: 12px;">Habis</span>
+            </div>
+            <div class="down-content">
+              <span class="author">Logitech</span>
+              <h4>Webcam 4K</h4>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <div class="contact-us section" id="contact">
     <div class="container">

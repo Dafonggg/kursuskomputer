@@ -16,6 +16,7 @@
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('css/templatemo-scholar.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/two-tone-theme.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
@@ -57,11 +58,11 @@ https://templatemo.com/tm-586-scholar
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="#services">Layanan</a></li>
-                      <li class="scroll-to-section"><a href="#courses">Courses</a></li>
-                      <li class="scroll-to-section"><a href="#team">Team</a></li>
-                      <li class="scroll-to-section"><a href="#events">Events</a></li>
+                      <li class="scroll-to-section"{{ request()->is('/') ? 'active' : '' }}><a href="{{ url('/') }}">Home</a></li>
+                      <li class="scroll-to-section"{{ request()->is('/layanan') ? 'active' : '' }}><a href="{{ url('/layanan') }}">Layanan</a></li>
+                      <li class="scroll-to-section"{{ request()->is('/kursus') ? 'active' : '' }}><a href="{{ url('/kursus') }}">Kursus</a></li>
+                      <li class="scroll-to-section"{{ request()->is('/timkami') ? 'active' : '' }}><a href="{{ url('/timkami') }}">Tim Kami</a></li>
+                      <li class="scroll-to-section"{{ request()->is('/katalog') ? 'active' : '' }} ><a href="{{ url('/katalog') }}">Katalog</a></li>
                       <li class="scroll-to-section has-sub">
                         <a href="#">Account <i class="fa fa-caret-down"></i></a>
                         <ul class="sub-menu">

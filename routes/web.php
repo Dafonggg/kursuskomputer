@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LandingController;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,24 +16,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('landing.index');
-});
-Route::get('/homepage', function () {
-    return view('homepage');
-});
-
-// Authentication routes
-Route::get('/login', function () {
-    return view('auth.login');
-})->name('login');
-
-Route::post('/login', function () {
-    // Add your login logic here
-    // This is a placeholder - implement actual authentication logic
-    return redirect('/');
-})->name('login.post');
-
-Route::get('/register', function () {
-    return view('auth.register');
-})->name('register');
+route::resource('/', LandingController::class);
+route::get('/kursus', [LandingController::class, 'kursus'])->name('kursus');
+route::get('/timkami', [LandingController::class, 'timkami'])->name('timkami');
+route::get('/layanan', [LandingController::class, 'layanan'])->name('layanan');
+route::get('/katalog', [LandingController::class, 'katalog'])->name('katalog');
+route::get('/login', [LandingController::class, 'login'])->name('login');
+route::get('/register', [LandingController::class, 'register'])->name('register');
