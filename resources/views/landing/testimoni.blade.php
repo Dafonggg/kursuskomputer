@@ -1,6 +1,4 @@
-@include('layouts.header')
-@include('layouts.footer')
-<div class="section testimonials">
+<section class="section testimonials">
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
@@ -39,5 +37,5 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </div>  
+</section>

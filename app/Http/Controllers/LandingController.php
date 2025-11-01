@@ -11,34 +11,9 @@ class LandingController extends Controller
      */
     public function index()
     {
-        return view('landing.index');
-    }
-    public function kursus()
-    {
-        return view('landing.kursus');
-    }
-    public function timkami()
-    {
-        return view('landing.timkami');
-    }
-    public function layanan()
-    {
-        return view('landing.layanan');
-    }
-    public function katalog()
-    {
-        return view('landing.katalog');
+        return view('landing.main');
     }
 
-    public function login()
-    {
-        return view('auth.login');
-    }
-
-    public function register()
-    {
-        return view('auth.register');
-    }
     /**
      * Show the form for creating a new resource.
      */

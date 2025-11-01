@@ -2,9 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LandingController;
-use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\Auth\RegisterController;
-
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,10 +15,6 @@ use App\Http\Controllers\Auth\RegisterController;
 |
 */
 
-route::resource('/', LandingController::class);
-route::get('/kursus', [LandingController::class, 'kursus'])->name('kursus');
-route::get('/timkami', [LandingController::class, 'timkami'])->name('timkami');
-route::get('/layanan', [LandingController::class, 'layanan'])->name('layanan');
-route::get('/katalog', [LandingController::class, 'katalog'])->name('katalog');
-route::get('/login', [LandingController::class, 'login'])->name('login');
-route::get('/register', [LandingController::class, 'register'])->name('register');
+route::get('/', [LandingController::class, 'index'])->name('index')->name('home');
+route::get('/login', [LoginController::class, 'login'])->name('login');
+route::get('/register', [RegisterController::class, 'register'])->name('register');

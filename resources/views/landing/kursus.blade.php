@@ -1,5 +1,4 @@
-@include('layouts.header')
-    <section class="section courses" id="courses" >
+<section class="section courses" id="courses" >
         <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -26,7 +25,7 @@
             <a href="#!" data-filter=".coreldraw">CorelDraw</a>
             </li>
             <li>
-            <a href="#!" data-filter=".paket">PaketMicrosoftOffice</a>
+            <a href="#!" data-filter=".paket">Paket Microsoft Office</a>
             </li>
         </ul>
         <div class="row event_box">
@@ -109,6 +108,5 @@
             </div>
             </div>
         </div>
-        </div>
-    </section>
-    @include('layouts.footer')
+    </div>
+</section>

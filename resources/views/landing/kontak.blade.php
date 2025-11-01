@@ -1,5 +1,3 @@
-@include('layouts.header')
-@include('layouts.footer')
 <section class="contact-us section" id="contact">
     <div class="container">
       <div class="row">
@@ -10,7 +8,7 @@
             <p>Thank you for choosing our templates. We provide you best CSS templates at absolutely 100% free of charge. You may support us by sharing our website to your friends.</p>
             <div class="special-offer">
               <span class="offer">off<br><em>50%</em></span>
-              <h6>Valide: <em>24 April 2036</em></h6>
+              <h6>Valid: <em>24 April 2036</em></h6>
               <h4>Special Offer <em>50%</em> OFF!</h4>
               <a href="#"><i class="fa fa-angle-right"></i></a>
             </div>
@@ -19,10 +17,11 @@
         <div class="col-lg-6">
           <div class="contact-us-content">
             <form id="contact-form" action="" method="post">
+              @csrf
               <div class="row">
                 <div class="col-lg-12">
                   <fieldset>
-                    <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                    <input type="text" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
@@ -46,4 +45,4 @@
         </div>
       </div>
     </div>
-  </div>
+</section>

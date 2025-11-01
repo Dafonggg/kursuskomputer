@@ -1,4 +1,3 @@
-@include('layouts.header')
     <section class="section courses" id="courses" >
         <div class="container">
         <div class="row">
@@ -150,4 +149,3 @@
         </div>
         </div>
     </section>
-@include('layouts.footer')
